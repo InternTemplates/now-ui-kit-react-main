@@ -1,0 +1,132 @@
+/* General App Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 10px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Home Page Styles */
+.home-page {
+  padding: 20px;
+}
+
+.welcome-banner {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+}
+
+.welcome-banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.featured-doctors img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+/* Appointment Booking Page Styles */
+.appointment-booking {
+  padding: 20px;
+}
+
+.doctor-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.doctor-list div {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.doctor-list img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.appointment-scheduler {
+  margin-top: 20px;
+}
+
+.confirm-appointment {
+  margin-top: 20px;
+}
+
+/* Referral Page Styles */
+.referral-page {
+  padding: 20px;
+}
+
+.referral-page img {
+  max-width: 100%;
+  height: auto;
+}
+
+.referral-page input,
+.referral-page select {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.referral-page button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.referral-page button:hover {
+  background-color: #45a049;
+}
+
+/* Profile Pages Styles */
+.patient-profile, .doctor-profile {
+  padding: 20px;
+}
+
+.patient-profile img, .doctor-profile img {
+  border-radius: 50%;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.appointments ul {
+  list-style-type: none;
+  padding: 0;
+}
+
