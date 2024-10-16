@@ -124,3 +124,55 @@ footer {
 footer p {
     margin: 0;
 }
+
+.homepage-content {
+    display: flex;
+    justify-content: space-between; /* Aligns content side-by-side */
+    align-items: flex-start; /* Aligns the content at the top */
+  }
+  
+  .welcome-banner {
+    flex: 1; /* This section takes most of the width */
+    padding: 20px;
+  }
+  
+  .featured-doctors {
+    width: 30%; /* Adjust the width as needed */
+    padding: 20px;
+    margin-right: 20px; /* Space on the right */
+  }
+  
+  .featured-doctors img {
+    width: 100%; /* Make the doctor images responsive */
+    height: auto;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1976d2;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #145ca8;
+  }
+  

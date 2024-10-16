@@ -35,14 +35,30 @@ nav a:hover {
 }
 
 .welcome-banner {
-  background-color: #f9f9f9;
-  padding: 40px;
+  flex: 1; /* Takes most of the width */
+  padding: 10px; /* Reduce padding for a smaller appearance */
+  max-width: 600px; /* Set a max width to limit the size */
   text-align: center;
+  background-color: #f9f9f9;
 }
 
 .welcome-banner img {
-  max-width: 100%;
+  width: 100%; /* Adjust image size based on the container */
   height: auto;
+}
+
+.welcome-banner h1 {
+  font-size: 2rem; /* Reduce font size of the heading */
+  margin: 10px 0;
+}
+
+.welcome-banner p {
+  font-size: 1rem; /* Reduce font size of the paragraph */
+  margin-bottom: 10px;
+}
+
+.welcome-banner button {
+  padding: 8px 16px
 }
 
 .featured-doctors img {
@@ -129,4 +145,5 @@ nav a:hover {
   list-style-type: none;
   padding: 0;
 }
+
 

@@ -15,10 +15,10 @@ const HomePage = () => {
         </nav>
       </header>
 
-      <main>
+      <main className="homepage-content">
         <section className="welcome-banner">
           <img src={assets.header_img} alt="Header" />  {/* Using image from assets */}
-          <h1>Welcome to XYZ Clinic</h1>
+          <h1>Welcome to Hope Hospital</h1>
           <p>Your Health, Our Priority</p>
           <Link to="/book-appointment">
             <button>Book an Appointment</button>
@@ -35,3 +35,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
